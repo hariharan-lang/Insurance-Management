@@ -40,6 +40,8 @@ public class AgentControl {
 
     @GetMapping("/agentlogin")
     public String login() {
+    	System.out.println("Hi hari");
+    	System.out.println("Hi sai");
         return "agentlogin";
     }
 
